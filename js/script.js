@@ -1,13 +1,4 @@
 'use strict';
-const numberOfFilms = prompt('Сколько фильмов вы уже просмотрели?', '');
-const personalMovieDB = {
-    count: numberOfFilms,
-    movies: {},
-    actors: {},
-    genres: [],
-    privat: false
-};
-
 let num = 20;
 
 function showFirstMessage(text) {
